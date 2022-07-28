@@ -9,7 +9,7 @@ const HomePage: NextPage = () => {
         <Grid item xs={12} sm={6} md={4}>
           <Card sx={{ height: "calc(100vh - 100px)" }}>
             <CardHeader title="Pendientes" />
-            <EntryList status="peding" />
+            <EntryList status="pedding" />
           </Card>
         </Grid>
         <Grid item xs={12} sm={4}>

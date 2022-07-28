@@ -1,8 +1,8 @@
 export interface Entry {
   _id: string;
   description: string;
-  crearedAt: number;
+  createdAt: number;
   status: EntryStatus;
 }
 
-export type EntryStatus = "peding" | "in-progres" | "finished";
+export type EntryStatus = "pedding" | "in-progres" | "finished";
